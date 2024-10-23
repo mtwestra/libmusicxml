@@ -1,24 +1,8 @@
-Welcome to the libmusicxml project
-======================================================================
 
-[Grame](http://www.grame.fr) - Centre National de Création Musicale
-----------------------------------------------------------------------
+This is a fork of the [libmusicxml library](https://github.com/grame-cncm/libmusicxml).
 
-Build status: [![Ubuntu](https://github.com/grame-cncm/libmusicxml/actions/workflows/ubuntu.yml/badge.svg)](https://github.com/grame-cncm/libmusicxml/actions/workflows/ubuntu.yml)
-[![MacOS](https://github.com/grame-cncm/libmusicxml/actions/workflows/macos.yml/badge.svg)](https://github.com/grame-cncm/libmusicxml/actions/workflows/macos.yml)[![Windows](https://github.com/grame-cncm/libmusicxml/actions/workflows/windows.yml/badge.svg)](https://github.com/grame-cncm/libmusicxml/actions/workflows/windows.yml)
-----
+It fixes an issue in the handeling of ties.
 
+This fork will be public until the [PR](https://github.com/grame-cncm/libmusicxml/pull/65) has been decided on.
 
-
-The MusicXML library is a portable C++ library designed close to the MusicXML format and intended to facilitate MusicXML support.
-
-[MusicXML](http://www.musicxml.com/) is a music interchange format designed for notation, analysis, retrieval, and performance applications. The MusicXML format has been initialy developed by Recordare. It is open for use by anyone under a royalty-free license.
-
-
-The libmusicxml library runs on the main operating systems: Linux, MacOS, iOS, Windows, Android. It can also be compiled to JavaScript (using [emscripten](http://emscripten.org)) to be embedded in a web page.
-
-See the [libmusicxml wiki](https://github.com/grame-cncm/libmusicxml/wiki) for building instructions.
-
-
-----------------------------------------------------------------------
-[Dominique Fober](https://github.com/dfober)
+Mark Tiele Westra
